@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: #ffff;
+    color: #1a1a1a;
+  }
+}
+
+/* === KODE UNTUK SCROLLER TOOLS === */
+
+.scroller {
+  /* Menyembunyikan item yang 'keluar' layar */
+  overflow: hidden;
+  /* Efek 'fade' di tepi kiri dan kanan agar terlihat mulus */
+  -webkit-mask-image: linear-gradient(to right, transparent, white 20%, white 80%, transparent);
+  mask-image: linear-gradient(to right, transparent, white 20%, white 80%, transparent);
+}
+
+.scroller-track {
+  display: flex;
+  width: max-content; /* Membuat lebarnya sepanjang total konten */
+  gap: 1rem; /* Jarak antar item (sama seperti 'gap-4') */
+}
+
+.scroller-item {
+  flex-shrink: 0; /* Mencegah item 'menyusut' saat di flexbox */
+}
+
+/* Animasi scroll ke kiri */
+@keyframes scroll-left {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); } /* Bergerak 50% karena kita duplikat 2x */
+}
+
+/* Animasi scroll ke kanan (arah sebaliknya) */
+@keyframes scroll-right {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
+}
+
+.animate-scroll-left {
+  /* Anda bisa ubah '40s' (40 detik) untuk mengatur kecepatan */
+  animation: scroll-left 40s linear infinite;
+}
+
+.animate-scroll-right {
+  animation: scroll-right 40s linear infinite;
+}
+
+/* BONUS: Animasi akan berhenti saat mouse Anda di atasnya */
+.scroller-track:hover {
+  animation-play-state: paused;
+}
