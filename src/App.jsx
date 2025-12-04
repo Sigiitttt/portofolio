@@ -109,7 +109,7 @@ function App() {
             <ProfileCard
               name="Moch Sigit Aringga"
               title="Web Developer"
-              handle="farisedrikp"
+              handle="msgtarg"
               status="Online"
               contactText="Contact Me"
               avatarUrl="../assets/saya1.jpg"
