@@ -172,7 +172,7 @@ function App() {
 
             {/* Kolom kanan */}
             <img
-              src="../assets/saya1.jpg"   /* <-- Masukkan nama foto Anda di sini */
+              src="../assets/gambar.jpg"   /* <-- Masukkan nama foto Anda di sini */
               alt="Foto Profil"
               className="w-full max-w-sm rounded-xl shadow-lg border border-gray-200" /* <-- Styling agar cantik */
             />
