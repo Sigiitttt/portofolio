@@ -108,7 +108,7 @@ function App() {
           <div className="md:ml-auto animate__animated animate__fadeInUp animate__delay-4s">
             <ProfileCard
               name="Moch Sigit Aringga"
-              {/* title="Web Developer" */}
+              title=" "
               handle="msgtarg"
               status="Online"
               contactText="Contact Me"
