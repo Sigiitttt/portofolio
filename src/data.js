@@ -163,78 +163,79 @@ export const listTools = [
   },
 ];
 
-import Proyek1 from "/assets/proyek/proyek1.jpg";
-import Proyek2 from "/assets/proyek/proyek2.jpg";
-import Proyek3 from "/assets/proyek/proyek3.jpg";
-import Proyek4 from "/assets/proyek/proyek4.jpg";
-import Proyek5 from "/assets/proyek/proyek5.jpg";
-import Proyek6 from "/assets/proyek/proyek6.jpg";
+import Proyek1 from "/assets/proyek/proyek1.png";
+import Proyek2 from "/assets/proyek/proyek2.png";
+import Proyek3 from "/assets/proyek/proyek3.png";
+import Proyek4 from "/assets/proyek/proyek4.png";
+import Proyek5 from "/assets/proyek/proyek5.png";
+import Proyek6 from "/assets/proyek/proyek6.png";
 
 export const listProyek = [
   {
     id: 1,
     image: Proyek1,
-    title: "AIS Detection App",
-    subtitle: "A mobile application powered by Artificial Intelligence...",
-    fullDescription:"A mobile application powered by Artificial Intelligence and Machine Learning, developed to assist in the early detection of Adolescent Idiopathic Scoliosis (AIS). By analyzing patient data and patterns, the app provides predictions that can help doctors and patients take preventive measures. This project demonstrates the role of AI in modern healthcare by improving accuracy, accessibility, and efficiency in medical diagnosis.",
+    title: "Sistem Informasi Perpustakaan Digital",
+    subtitle: "Platform Manajemen Perpustakaan & Pembayaran Digital",
+    fullDescription: "Aplikasi berbasis web yang dirancang untuk mendigitalkan sirkulasi perpustakaan kampus. Dibangun menggunakan PHP Native dan MySQL dengan standar keamanan tinggi (PDO Prepared Statements & MD5). Fitur unggulan meliputi manajemen stok buku otomatis, pengelolaan E-Book, perhitungan denda keterlambatan secara real-time, serta integrasi pembayaran denda menggunakan Payment Gateway Midtrans dan verifikasi bukti bayar manual. Antarmuka dibuat responsif menggunakan Bootstrap 5 untuk kemudahan akses Admin dan Mahasiswa.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/Sigiitttt",
     dad: "100",
   },
   {
     id: 2,
-    image: Proyek2,
-    title: "IoT Air Quality Monitoring",
-    subtitle: "A smart IoT system designed to measure and analyze air quality...",
-    fullDescription:"A smart IoT system designed to measure and analyze air quality using sensors connected to a mobile application. The app provides real-time updates on air quality levels, empowering users to make healthier lifestyle decisions based on environmental conditions. This project showcases the potential of IoT in addressing environmental and public health issues.",
+    image: Proyek2, // Pastikan variabel gambar sudah diimport
+    title: "Sistem Informasi Booking Pendakian Gunung Penanggungan",
+    subtitle: "Platform Reservasi & Manajemen Kuota Pendakian Terdistribusi",
+    fullDescription: "Sistem aplikasi terdistribusi (Client-Server) yang dirancang untuk modernisasi perizinan pendakian. Sisi Client (Frontend) dibangun menggunakan React.js dan Tailwind CSS untuk pengalaman pengguna yang interaktif dan responsif, sementara sisi Server (Backend) menggunakan Laravel REST API. Fitur unggulan meliputi pengecekan kuota real-time, pendaftaran booking online, generasi e-Tiket PDF otomatis, serta integrasi informasi cuaca & SOP. Dilengkapi dashboard Admin komprehensif untuk verifikasi pembayaran, manajemen operasional (Check-in/Out), dan sistem blacklist pendaki.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/Sigiitttt/web-sister.git",
     dad: "200",
   },
   {
     id: 3,
-    image: Proyek3,
-    title: "IoT Heartbeat Monitoring System",
-    subtitle: "An IoT-based healthcare project developed to measure and monitor...",
-    fullDescription:"An IoT-based healthcare project developed to measure and monitor heart rate in real-time. The system connects sensors to a local web server, enabling users and healthcare providers to track data directly from a web interface. This project highlights the integration of hardware and software to create efficient medical solutions that can be applied in local clinics or personal health monitoring.",
+    image: Proyek3, // Pastikan variabel gambar sudah diimport
+    title: "TIX.ID Web - Native Version",
+    subtitle: "Platform Simulasi Pemesanan Tiket Bioskop Berbasis Web",
+    fullDescription: "Website simulasi pemesanan tiket bioskop yang dibuat menggunakan HTML, CSS, dan JavaScript murni (tanpa framework). Proyek ini mengadaptasi fitur utama aplikasi TIX.ID seperti pemesanan tiket film, pemilihan kursi, pemesanan makanan, pembayaran, hingga riwayat transaksi. Semua data tersimpan secara lokal menggunakan LocalStorage. Cocok digunakan untuk pembelajaran, tugas kuliah, atau demonstrasi UI/UX aplikasi ticketing. Struktur proyek modular dan responsif dengan halaman admin untuk mengelola data film dan makanan.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/Sigiitttt/proyek-akhir-dpw.git",
     dad: "300",
   },
   {
     id: 4,
-    image: Proyek4,
-    title: "Personal Web Portfolio",
-    subtitle: "An interactive web portfolio showcasing my professional journey...",
-    fullDescription:"An interactive web portfolio showcasing my professional journey, skills, and projects. Designed with a clean yet modern aesthetic, the portfolio highlights my technical expertise in web development, software engineering, and IoT. The site also serves as a central hub for potential employers and collaborators to explore my works, reflecting both my creativity and technical precision.",
+    image: Proyek4, // Pastikan variabel gambar sudah diimport
+    title: "Al-Qur'an Web App - Modern & Interactive",
+    subtitle: "Aplikasi Baca & Audio Al-Qur'an Berbasis React + TypeScript",
+    fullDescription: "Aplikasi web Al-Qur'an modern yang dirancang untuk pengalaman membaca dan mendengarkan Al-Qur'an secara nyaman, interaktif, dan responsif. Dibangun menggunakan React dengan TypeScript untuk performa optimal dan maintainability yang lebih baik. Data diambil real-time dari API EQuran.id, menampilkan 114 Surah lengkap dengan ayat, transliterasi, terjemahan, serta fitur audio player terintegrasi. Mengadopsi pola desain Container/Presentational untuk pemisahan yang jelas antara logika dan UI, serta memanfaatkan Tailwind CSS untuk tampilan clean dan mobile-friendly. Cocok untuk pembelajaran, ibadah digital, dan showcase kemampuan frontend modern.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/Sigiitttt/Al-Quran-Digital.git",
     dad: "400",
   },
     {
     id: 5,
-    image: Proyek5,
-    title: "Color Blindness Detection App",
-    subtitle: "A cross-platform application available on both mobile and desktop...",
-    fullDescription:"A cross-platform application available on both mobile and desktop, created to help identify different types of color blindness through color recognition tests. The app provides users with instant results, making it useful for educational, medical, and self-assessment purposes. Its intuitive design and accessibility aim to support individuals in understanding and managing color vision deficiencies.",
+    image: Proyek5, // Pastikan variabel gambar sudah diimport
+    title: "Voice Command Detection - Buka & Tutup",
+    subtitle: "Sistem Deteksi Perintah Suara Berbasis Machine Learning",
+    fullDescription: "Proyek klasifikasi suara sederhana yang dirancang untuk mendeteksi dua perintah suara utama: 'buka' dan 'tutup', bersifat speaker-dependent (hanya mengenali suara pemilik dataset). Sistem dibangun menggunakan Python dan Streamlit sebagai aplikasi web interaktif. Fitur mencakup ekstraksi fitur audio berbasis spectral, temporal, dan statistik seperti MFCC, Mel Spectrogram, ZCR, serta Random Forest untuk model klasifikasi. Model yang telah dilatih disimpan dalam format .pkl dan dapat digunakan untuk prediksi real-time melalui fitur upload audio atau rekam suara langsung di browser.",
+
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/Sigiitttt",
     dad: "500",
   },
   {
     id: 6,
-    image: Proyek6,
-    title: "Coffee Shop Website",
-    subtitle: "A fully functional website designed for a coffee shop, enabling...",
-    fullDescription:"A fully functional website designed for a coffee shop, enabling customers to explore the menu, learn about the shop’s story, and place orders online. The project focused on creating an attractive and modern interface, integrating responsive design for mobile and desktop, and ensuring smooth navigation for users. This website not only improved customer experience but also supported the coffee shop’s digital presence and business growth.",
+    image: Proyek6, // Pastikan variabel gambar sudah diimport
+    title: "MatKids - Educational Math Game",
+    subtitle: "Game Edukasi Matematika untuk Anak Berbasis Unity",
+    fullDescription: "MatKids adalah game edukasi interaktif yang dikembangkan sebagai Proyek PPL dengan tujuan melatih kemampuan dasar matematika pada anak-anak. Dibangun menggunakan Unity 2022 LTS untuk menghadirkan gameplay yang menyenangkan melalui kombinasi visual menarik, animasi, serta tantangan soal berhitung sesuai level. Game dapat dijalankan langsung melalui Unity Editor dan tersedia opsi build untuk Windows. Cocok sebagai media belajar yang kreatif dan mendukung peningkatan literasi numerik bagi pelajar usia dini.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/Sigiitttt",
     dad: "600",
   },
 ];
